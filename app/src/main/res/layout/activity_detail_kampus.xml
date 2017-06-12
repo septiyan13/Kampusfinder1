@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="25dp"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.kamfin.kampusfinder.VIew.WrapPager
+        android:id="@+id/wrapPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        
+    </com.example.kamfin.kampusfinder.VIew.WrapPager>
+
+    <TextView
+        android:id="@+id/txtNamaKampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Nama Kampus"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Deskripsi" />
+
+    <TextView
+        android:id="@+id/txtJurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Jurusan" />
+
+    <Button
+        android:id="@+id/btnPeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/maps"
+        android:text="Peta"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    
+</LinearLayout>
+</ScrollView>
